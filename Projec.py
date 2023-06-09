@@ -177,7 +177,7 @@ def book_search_lab (name, author, number):
                 df_j = link_to_info_lab(book_lab[j+1][0], book_lab[j+1][1])
                 df = pd.concat([df, df_j])
             df.reset_index(drop=True, inplace= True)
-         return (df)
+        return (df)
 
 
 # In[25]:
