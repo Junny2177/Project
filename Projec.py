@@ -192,6 +192,6 @@ if number.isnumeric():
     else:
         print(results)
     st.write(results)
-else: 
+
     
 
