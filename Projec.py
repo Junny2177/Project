@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[1]:
-pip install bs4
+
 
 import re
 import requests
@@ -10,7 +10,7 @@ import random
 import string 
 import json
 import pandas as pd
-from bs4 import BeautifulSoup
+import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium import webdriver 
