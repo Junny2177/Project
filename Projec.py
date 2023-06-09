@@ -10,7 +10,7 @@ import random
 import string 
 import json
 import pandas as pd
-import BeautifulSoup
+from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium import webdriver 
