@@ -63,7 +63,7 @@ def name_to_link_lab (name, author, number):
                     link = 'https://www.labirint.ru' + classes['href']
                     list_of_books.append([title, link])
     else: 
-        list_of_books.append('Такой книжи не найдено,')
+        list_of_books.append('Такой книжки не найдено,')
         list_of_books.append('попробуйте другое название')
     
     if response_1.status_code == 200:
