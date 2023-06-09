@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[1]:
-
+$ pip install BeautifulSoup4
 
 import re
 import requests
