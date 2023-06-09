@@ -168,8 +168,8 @@ def book_search_lab (name, author, number):
     if 'Такой книжки не найдено,' in book_lab:
         string_to_print = ''
         for i in book_lab:
-            string_to_print_1 = string_to_print + i + ' '
-        return (string_to_print_1)
+            string_to_print = string_to_print + i + ' '
+        return (string_to_print)
     else:
         df = link_to_info_lab(book_lab[0][0], book_lab[0][1])
         if len(book_lab) > 1:
