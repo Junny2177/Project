@@ -193,5 +193,5 @@ if number.isnumeric():
         print(results)
     st.write(results)
 else: 
-    st.write('Вы ввели не число в строке кол-во результатов, введите заново')
+    
 
