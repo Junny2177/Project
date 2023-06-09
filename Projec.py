@@ -77,10 +77,10 @@ def name_to_link_lab (name, author, number):
                     link = 'https://www.labirint.ru' + classes['href']
                     list_of_books.append([title, link])
     else: 
-        list_of_books.append('Такой книжи не найдено,')
+        list_of_books.append('Такой книжки не найдено,')
         list_of_books.append('попробуйте другое название')
     if len(list_of_books) ==0:
-        list_of_books.append('Такой книжи не найдено,')
+        list_of_books.append('Такой книжки не найдено,')
         list_of_books.append('попробуйте другое название')
     
     list_of_books_upd = []
@@ -88,8 +88,8 @@ def name_to_link_lab (name, author, number):
         if i not in list_of_books_upd:
             list_of_books_upd.append(i)
     if len(list_of_books_upd) > 2 :
-        if 'Такой книжи не найдено,' in list_of_books_upd:
-            list_of_books_upd.remove('Такой книжи не найдено,')
+        if 'Такой книжки не найдено,' in list_of_books_upd:
+            list_of_books_upd.remove('Такой книжки не найдено,')
         if 'попробуйте другое название' in list_of_books_upd:
             list_of_books_upd.remove('попробуйте другое название')
              
@@ -165,7 +165,7 @@ def link_to_info_lab (name, url):
 
 def book_search_lab (name, author, number):
     book_lab = name_to_link_lab(name, author, number) 
-    if 'Такой книжи не найдено,' in book_lab:
+    if 'Такой книжки не найдено,' in book_lab:
         string_to_print = ''
         for i in book_lab:
             string_to_print_1 = string_to_print + i + ' '
@@ -177,7 +177,7 @@ def book_search_lab (name, author, number):
                 df_j = link_to_info_lab(book_lab[j+1][0], book_lab[j+1][1])
                 df = pd.concat([df, df_j])
             df.reset_index(drop=True, inplace= True)
-    return (df)
+         return (df)
 
 
 # In[25]:
