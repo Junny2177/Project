@@ -1,4 +1,4 @@
-libglib2.0-0=2.56.4-0ubuntu0.18.04.9
-libnss3=2:3.35-2ubuntu2.12
-libgconf-2-4=3.2.6-4ubuntu1
-libfontconfig1=2.12.6-0ubuntu2.1
+libglib2.0-0
+libnss3
+libgconf-2-4
+libfontconfig1
