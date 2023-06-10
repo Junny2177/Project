@@ -2,4 +2,4 @@ beautifulsoup4
 selenium
 webdriver_manager
 sympy
-chromium-browser
+sudo apt-get install -y chromium-browser
