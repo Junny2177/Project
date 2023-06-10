@@ -2,4 +2,4 @@ beautifulsoup4
 selenium
 webdriver_manager
 sympy
-ChromeDriverManager
+webdriver_manager.chrome
