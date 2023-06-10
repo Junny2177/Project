@@ -2,4 +2,3 @@ beautifulsoup4
 selenium
 webdriver_manager
 sympy
-Chrome binary
