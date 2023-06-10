@@ -21,7 +21,7 @@ import sympy
 from selenium.webdriver.chrome.options import Options
 
 options = Options()
-options.binary_location = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+options.binary_location = "C:\Program Files\Google\Chrome\Application\chrome.exe"
 driver = webdriver.Chrome(options=options)
 
 # In[2]:
